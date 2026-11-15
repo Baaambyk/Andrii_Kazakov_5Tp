@@ -1,0 +1,12 @@
+# Wgranym plikom nie wolno wykonywać kodu PHP.
+<IfModule mod_php.c>
+    php_flag engine off
+</IfModule>
+
+<IfModule mod_authz_core.c>
+    <FilesMatch "\.(php|phtml|phar|php\d)$">
+        Require all denied
+    </FilesMatch>
+</IfModule>
+
+Options -Indexes

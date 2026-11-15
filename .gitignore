@@ -1,0 +1,17 @@
+# Zależności lokalne i pliki tymczasowe
+/vendor/
+/node_modules/
+.env
+config/config.local.php
+
+# Wgrane zdjęcia sal (poza plikiem .gitkeep)
+/public/uploads/rooms/*
+!/public/uploads/rooms/.gitkeep
+!/public/uploads/rooms/.htaccess
+
+# Systemowe
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.sql.gz
