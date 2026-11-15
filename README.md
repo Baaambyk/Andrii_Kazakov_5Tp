@@ -142,4 +142,4 @@ Dodatkowo widok `v_reservations` łączy rezerwacje z użytkownikiem i salą.
 ## Autor
 
 Projekt zaliczeniowy — Andrii Kazakov. Kod źródłowy dostępny na GitHubie
-w gałęzi **WebApp**.
+w gałęzi **WebApp**: <https://github.com/Baaambyk/Andrii_Kazakov_5Tp/tree/WebApp>.
